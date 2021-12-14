@@ -1,0 +1,113 @@
+html {
+    --section-background-color: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.582),
+      rgba(12, 8, 24, 0.904)
+    );
+  
+    --image-gradient: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.678),
+      rgba(12, 10, 22, 0.863)
+    );
+  
+    --imp-text-color: #c770f0;
+  }
+
+/* --------- */
+/* Home section */
+/* --------- */
+.wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+.home-section {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+  }
+
+.heading {
+  font-size: 3.5em !important;
+  padding-left: 50px !important;
+}
+
+.heading-name {
+  font-size: 3.5em !important;
+}
+
+.heading-des {
+  font-size: 3.5em !important;
+}
+
+.main-name {
+  color: #c228ff;
+}
+
+.Typewriter__wrapper {
+  color: #ff2828 !important;
+  font-weight: 400 !important;
+}
+.Typewriter__cursor {
+  color: rgb(255, 40, 40) !important;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: content;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    margin: auto;
+}
+
+.profile-picture-background {
+    height: 90%;
+    width: 90%;
+    background-image: url("components/Home/profile.jpg");
+    background-size: cover;
+    border-radius: 60%;
+    background-repeat: no-repeat;
+    margin: 0 0 0 15px;
+
+}
+
+.profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
