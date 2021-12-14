@@ -99,7 +99,7 @@ html {
 .profile-picture-background {
     height: 90%;
     width: 90%;
-    background-image: url("components/Home/profile.jpg");
+    background-image: url("assets/profile.jpg");
     background-size: cover;
     border-radius: 60%;
     background-repeat: no-repeat;
