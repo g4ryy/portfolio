@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+body {
+  background: url("./assets/bg.jpg") no-repeat center center fixed;
+  -webkit-background: cover;
+  -moz-background: cover;
+  -o-background: cover;
+  background: cover;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
