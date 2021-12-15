@@ -108,11 +108,16 @@ html {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid crimson;
+	border: 2px solid #40ffef;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
+}
+
+#resume:hover {
+  color: black;
+  background-color: #40ffef;
 }
 
 @keyframes box_reveal_one {

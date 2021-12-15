@@ -1,6 +1,7 @@
 import React from 'react';
 import Type from './Type';
 import Particle from '../Particle';
+import Resume from '../../assets/Gary_Yansen_Resume.pdf';
 
 export default function Home() {
     return (
@@ -30,7 +31,7 @@ export default function Home() {
                                 <div className="profile-picture-background" onClick></div>
                             </div>
 
-                            <div id="resume"> resume</div>
+                            <a href={Resume} type='button' target="_blank" rel="noreferrer" id="resume">Resume</a>
                         </div>
                     </div>
                 </div>
