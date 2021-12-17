@@ -58,7 +58,7 @@ function Particle() {
               enable: true,
               value_area: 900,
             },
-            value: 60,
+            value: 25,
           },
           opacity: {
             value: 0.5,
@@ -75,8 +75,8 @@ function Particle() {
             },
             animation: {
                 enable: true,
-                minimumValue: 0.1,
-                speed: 5,
+                minimumValue: 3,
+                speed: 1,
                 sync: true
             },
             value: 7,
