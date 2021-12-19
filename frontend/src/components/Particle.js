@@ -40,7 +40,7 @@ function Particle() {
             distance: 150,
             enable: true,
             opacity: 0.2,
-            width: 1,
+            width: 1
           },
           collisions: {
             enable: false,
@@ -58,7 +58,7 @@ function Particle() {
               enable: true,
               value_area: 900,
             },
-            value: 25,
+            value: 30,
           },
           opacity: {
             value: 0.5,
@@ -70,6 +70,7 @@ function Particle() {
             }
           },
           size: {
+            value: 7, 
             random: {
                 enable: true,
             },
@@ -77,10 +78,8 @@ function Particle() {
                 enable: true,
                 minimumValue: 3,
                 speed: 1,
-                sync: true
+                sync: true,
             },
-            value: 7,
-
           },
         },
         detectRetina: true,

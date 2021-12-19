@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 
-function NavBar() {
+export default function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -21,9 +22,9 @@ function NavBar() {
     <Navbar
       expanded={expand}
       fixed="top"
-      expand="md"
+      expand="xl"
       className={navColour ? "sticky" : "navbar"}
-      style={{backgroundColor: "#00000069"}}
+      style={{backgroundColor: "#000000e0"}}
     >
       <Container>
         <Navbar.Brand href="/">
@@ -47,27 +48,19 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link  to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-            
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
                 About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-     
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/skills" onClick={() => updateExpanded(false)}>
                Skills
               </Nav.Link>
             </Nav.Item>
@@ -107,5 +100,3 @@ function NavBar() {
     </Navbar>
   );
 }
-
-export default NavBar;

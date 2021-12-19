@@ -86,7 +86,7 @@ a {
   opacity: 0.9 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 2rem !important;
@@ -112,7 +112,7 @@ a {
   padding: 0.8rem 1rem !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
@@ -255,6 +255,8 @@ a {
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
 }
 
 #resume:hover {
@@ -304,5 +306,76 @@ a {
 }
 
 
+/* About Section */
+.about-section {
+  position: relative !important;
+  padding-top: 200px !important;
+  padding-bottom: 70px !important;
+  color: white;
+}
+
+.about-section h1{
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.about-section h1 span {
+  color: #40ffef;
+}
+
+.about-section p {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 25px;
+}
 
 
+/* Skills section */
+.skills-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.skills-section span {
+  color: #40ffef;
+}
+
+.skills-section h1 {
+  font-size: 5rem;
+  padding-bottom: 10px;
+}
+
+.tech-icons {
+  margin: 15px !important;
+  border: 1.7px solid rgba(64, 255, 239, 0.637) !important;
+  border-radius: 5px !important;
+  box-shadow: 4px 5px 4px 3px rgba(4, 168, 119, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  width: 180px !important;
+  padding: 20px;
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.tech-icons img {
+  width: 100px;
+  height: 80px;
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid #40ffef !important;
+}
+
+#skill-list {
+  width: fit-content;
+}
+
+.others {
+  font-size: 2.5rem;
+  width: fit-content;
+}

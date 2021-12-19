@@ -3,12 +3,15 @@
 }
 
 body {
-  background: url("./assets/bg.jpg") no-repeat center center fixed;
-  -webkit-background: cover;
-  -moz-background: cover;
-  -o-background: cover;
-  background: cover;
+  background: 
+  linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+  url("./assets/bg.jpg") no-repeat center center fixed;
 }
+
+
 
 .App-logo {
   height: 40vmin;
