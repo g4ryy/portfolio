@@ -39,7 +39,7 @@ export default function Skills() {
           </Col>
           
           <Col xs={4} md={2} className="tech-icons">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" />
           </Col>
           
           <Col xs={4} md={2} className="tech-icons" >

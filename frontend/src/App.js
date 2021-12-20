@@ -1,11 +1,15 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from './components/AboutMe/About';
+import Experiences from "./components/Experiences/Experiences";
 import Home from "./components/Home/Home";
-import Skills from "./components/Skills/Skills"
 import Navigation from "./components/Navigation";
+import Skills from "./components/Skills/Skills";
+
+
 import './App.css';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   return (
@@ -16,6 +20,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/skills" element={<Skills/>} />
+        <Route path="/experiences" element={<Experiences/>} />
       </Routes>
       </div>
     </Router>
