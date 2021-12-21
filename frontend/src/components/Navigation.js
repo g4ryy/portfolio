@@ -27,7 +27,7 @@ export default function NavBar() {
       style={{backgroundColor: "#000000e0"}}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/portfolio">
           <h1>
             <span>G</span>
             {"ary "} 
