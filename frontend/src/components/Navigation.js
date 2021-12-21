@@ -48,31 +48,31 @@ export default function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/portfolio" onClick={() => updateExpanded(false)}>
                Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/portfolio/about" onClick={() => updateExpanded(false)}>
                 About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/skills" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/portfolio/skills" onClick={() => updateExpanded(false)}>
                Skills
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/experiences" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/portfolio/experiences" onClick={() => updateExpanded(false)}>
                 Experiences
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/projects" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/portfolio/projects" onClick={() => updateExpanded(false)}>
                Projects
               </Nav.Link>
             </Nav.Item>
