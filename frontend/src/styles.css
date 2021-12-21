@@ -308,7 +308,6 @@ a {
 
 /* About Section */
 .about-section {
-  position: relative !important;
   padding-top: 200px !important;
   padding-bottom: 70px !important;
   color: white;
@@ -328,6 +327,78 @@ a {
   text-align: left;
   font-size: 25px;
 }
+
+
+/*Contact section */
+.contact-section {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-section h1 {
+  font-size: 4rem;
+}
+
+.contact-section h1 span {
+  color: #40ffef;
+}
+
+.home-about-social-links {
+  justify-content: center !important;
+  padding-top: 15px !important;
+  display: inline-block !important;
+  position: relative !important;
+  padding-inline-start: 0 !important;
+}
+
+.icon {
+  position: relative !important;
+  display: inline-block !important;
+  width: 70px !important;
+  height: 70px !important;
+  text-align: center !important;
+  font-size: 4rem !important;
+  line-height: 1.5em !important;
+  background: rgba(255, 255, 255, 0.972) !important;
+  border-radius: 100% !important;
+  transition: 0.5s !important;
+}
+
+.icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #68187a;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.icon:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #801f95;
+}
+
+.icon:hover {
+  color: #87209e;
+  box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e;
+}
+
+.social-icons {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.icon-colour {
+  color: #6a0bc2 !important;
+}
+
 
 
 /* Skills section */
@@ -392,7 +463,7 @@ a {
 }
 
 .job {
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
 
 .main {
@@ -410,7 +481,7 @@ a {
   color: rgb(247, 231, 205);
   font-size: 2.5rem;
   padding-top: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .period {

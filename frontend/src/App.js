@@ -9,6 +9,7 @@ import Skills from "./components/Skills/Skills";
 import './App.css';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import Projects from "./components/Projects/Projects";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/skills" element={<Skills/>} />
         <Route path="/experiences" element={<Experiences/>} />
+        <Route path="/projects" element={<Projects/>} />
       </Routes>
       </div>
     </Router>

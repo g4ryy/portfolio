@@ -72,22 +72,8 @@ export default function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-     
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/projects" onClick={() => updateExpanded(false)}>
                Projects
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-     
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-               Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>
