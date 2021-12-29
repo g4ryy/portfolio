@@ -4,12 +4,12 @@ import Experiences from "./components/Experiences/Experiences";
 import Home from "./components/Home/Home";
 import Navigation from "./components/Navigation";
 import Skills from "./components/Skills/Skills";
-
+import Projects from "./components/Projects/Projects";
 
 import './App.css';
 import './styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Projects from "./components/Projects/Projects";
+
 
 
 function App() {
