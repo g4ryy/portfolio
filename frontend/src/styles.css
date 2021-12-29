@@ -488,9 +488,9 @@ a {
   padding-left: 20px !important;
 }
 
-.main p {
-  font-size: 1.3rem;
+.job-desc {
   text-align: left;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 800px) {
