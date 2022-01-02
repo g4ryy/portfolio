@@ -11,7 +11,7 @@ export default function Experiences() {
                     <h2><strong>CS2102 TEACHING ASSISTANT</strong></h2>
                     <h3 className='subhead'>NATIONAL UNIVERSITY OF SINGAPORE</h3>
                     <ul className='job-desc'>
-                        <li>Teaching Assistant for CS2102: Database Systems</li>
+                        <li>Teaching Assistant for CS2102: Database Systems.</li>
                         <li>Facilitate the teaching of Relational Algebra, ER Diagram, SQL, 
                             Functional Dependencies and Normalization techniques.</li>
                     </ul>
@@ -26,10 +26,10 @@ export default function Experiences() {
                     <h2><strong>CS2030 TEACHING ASSISTANT</strong></h2>
                     <h3 className='subhead'>NATIONAL UNIVERSITY OF SINGAPORE</h3>
                     <ul className='job-desc'>
-                        <li>Teaching Assistant for CS2030: Programming Methodology II</li>
+                        <li>Teaching Assistant for CS2030: Programming Methodology II.</li>
                         <li>Facilitated the teaching of object-oriented programming, functional programming, and medium scale software
                        development in Java.</li>
-                        <li>Conducted weekly lessons and gave feedback on their weekly code submissions</li>
+                        <li>Conducted weekly lessons and gave feedback on their weekly code submissions.</li>
                     </ul>
                 </Col>
                 <Col xs={12} md={4} lg={3} className='period'>
@@ -43,7 +43,7 @@ export default function Experiences() {
                     <h3 className='subhead'>RUSHOWL SINGAPORE</h3>
                     <ul className='job-desc'>
                         <li>Analysed the geospatial features of Singapore and explored the correlations with commute experience and
-                        daily operations</li>
+                        daily operations.</li>
                         <li>Conducted research on the commute pattern of platform users and generate service
                         personalization and improve user satisfaction.</li>
                     </ul>

@@ -301,6 +301,34 @@ a {
   }
 }
 
+@media (max-width: 760px) {
+  .heading {
+    font-size: 2.8rem !important;
+  }
+
+  .heading-name {
+    font-size: 2.8rem !important;
+  }
+
+  .heading-des {
+    font-size: 2rem !important;
+  }
+
+  .profile-picture {
+    margin-top: 40px;
+    height: 240px;
+    width: 240px;
+  }
+
+  .profile-picture-background {
+    margin: 0 0 0 6px !important;
+  }
+
+  #resume {
+    font-size: 1.5rem !important;
+  }
+}
+
 
 /* About Section */
 .about-section {
@@ -323,7 +351,6 @@ a {
   text-align: left;
   font-size: 25px;
 }
-
 
 /*Contact section */
 .contact-section {
@@ -395,6 +422,31 @@ a {
   color: #6a0bc2 !important;
 }
 
+@media (max-width: 760px) {
+  .about-section h1 {
+    font-size: 50px;
+  }
+
+  .about-section p {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .contact-section {
+    margin-top: 0;
+    padding-bottom: 100px;
+  }
+
+  .contact-section h1 {
+    font-size: 2rem;
+  }
+
+  .icon {
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 2rem !important;
+  }
+}
 
 
 /* Skills section */
@@ -447,6 +499,25 @@ a {
   width: fit-content;
 }
 
+@media (max-width: 760px) {
+  .skills-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .tech-icons {
+    width: 140px !important;
+  }
+
+  .tech-icons img {
+    width: 70px;
+    height: 50px;
+  }
+
+  .others {
+    font-size: 1.2rem;
+    width: fit-content;
+  }
+}
 
 /*Experiences section*/
 .exp-section h1 {
@@ -496,6 +567,32 @@ a {
 @media (max-width: 800px) {
   .period {
     justify-content: left;
+  }
+}
+
+@media (max-width: 760px) {
+  .exp-section h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .main {
+    padding-bottom: 0px;
+  }
+
+  .main h2 {
+    font-size: 1.5rem;
+  }
+  
+  .subhead {
+    font-size: 1.1rem;
+  }
+
+  .period {
+    font-size: 1.1rem;
+  }
+  
+  .job-desc {
+    font-size: 1rem;
   }
 }
 
@@ -554,7 +651,23 @@ a {
   background-color: #6200ffc0 !important;
   border-color: #5900ffd7 !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+
+@media (max-width: 760px) {
+  .project-section h1 {
+    font-size: 3rem !important;
+    padding-bottom: 10px;
+  }
+
+  .project-card {
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
+    padding-left: 45px !important;
+    padding-right: 45px !important;
+    height: auto !important;
+  }
 }
