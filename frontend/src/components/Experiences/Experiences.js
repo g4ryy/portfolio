@@ -8,6 +8,16 @@ export default function Experiences() {
 
             <Row className='job'>
                 <Col xs={12} md={8} lg={9} className='main'>
+                    <h2><strong>REGIONAL OPERATIONS INTERN</strong></h2>
+                    <h3 className='subhead'>SHOPEE SINGAPORE</h3>
+                </Col>
+                <Col xs={12} md={4} lg={3} className='period'>
+                    May 2022 - Present
+                </Col>
+            </Row>
+
+            <Row className='job'>
+                <Col xs={12} md={8} lg={9} className='main'>
                     <h2><strong>CS2102 TEACHING ASSISTANT</strong></h2>
                     <h3 className='subhead'>NATIONAL UNIVERSITY OF SINGAPORE</h3>
                     <ul className='job-desc'>

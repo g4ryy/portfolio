@@ -31,7 +31,7 @@ export default function Skills() {
         <h1>Tech <span>Stacks</span></h1>
         <Row style={{ justifyContent: "center", paddingBottom: "100px", fontSize:"4px"}}>
           <Col xs={4} md={2} className="tech-icons">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="Django" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" alt="Django" />
           </Col>
           
           <Col xs={4} md={2} className="tech-icons">
