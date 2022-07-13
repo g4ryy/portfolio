@@ -11,10 +11,10 @@ export default function About() {
           <span>me</span>
         </h1>
         <p>
-          I am currently a penultimate year undergraduate at the National
+          I am currently a final year undergraduate at the National
           University of Singapore (NUS), pursuing a double major in Data Science
           and Computer Science. I have a strong interest in Software
-          Engineering and Artificial Intelligence. My career aspirations lie in the intersection between these fields,
+          Engineering and Data Analytics. My career aspirations lie in the intersection between these fields,
           and I hope to be able to develop useful technological solutions
           that can utilize the data in today's world to benefit people's lives.
         </p>

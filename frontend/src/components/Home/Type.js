@@ -8,6 +8,7 @@ export default function Type() {
         strings: [
           "Student",
           "Developer",
+          "Analyst",
           "Teacher",
           "Programmer",
         ],

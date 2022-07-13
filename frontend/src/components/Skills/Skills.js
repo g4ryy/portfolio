@@ -49,6 +49,14 @@ export default function Skills() {
           <Col xs={4} md={2} className="tech-icons">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PSQL" />
           </Col>
+
+          <Col xs={4} md={2} className="tech-icons">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="R" />
+          </Col>
+          
+          <Col xs={4} md={2} className="tech-icons">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="R" />
+          </Col>
         </Row>
 
         <h1><span>Other</span> Skills</h1>
@@ -57,6 +65,7 @@ export default function Skills() {
           <li className='others'>Data Structures</li>
           <li className='others'>Algorithms</li>
           <li className='others'>Object-Oriented Programming</li>
+          <li className='others'>Big Data Systems</li>
         </ul>
         </Container>
         
